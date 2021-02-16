@@ -1,0 +1,123 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	background: #2e8d86;
+}
+
+.container
+{
+	width:80%;
+	margin:80px auto;
+}
+.container h1
+{
+	padding: 60px 0;
+	color: #fff;
+	font-size:44px;
+	text-align: center;
+}
+
+.row
+{
+	display:flex;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.col
+{
+	flex-basis: 50%;
+	min-width:250px;
+
+}
+.feature-img
+{
+	width:83%;
+	margin:auto;
+	position: relative;
+	border-radius: 6px;
+	overflow: hidden;
+}
+.small-img-row
+{
+	display:flex;
+	background:#efefef;
+	margin: 20px 0;
+	align-items: center;
+	border-radius: 6px;
+	width:85%;
+	overflow:hidden;
+}
+.small-img-row p
+{
+	margin-left: 15px;
+	color:#707070;
+	line-height: 22px; 
+	font-size: 15px;
+}
+.small-img img
+{
+	width:150px;
+
+}
+.playbtn
+{
+	width:60px;
+	position:absolute;
+	left:50%;
+	margin-top:150px;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+
+}
+.small-img .playbtn
+{
+	width:60px;
+	margin-left:80px;
+	margin-top:60px;
+}
+.video-player
+{
+	width:80%;
+	position:absolute;
+	left:50%;
+	top:55%;
+	transform: translate(-50%,-50%);
+	cursor: pointer;
+	display: none;
+}
+video:foucus
+{
+	outline:none;
+}
+.close-btn
+{
+	position:absolute;
+	width:40px;
+	top:10px;
+	right:10px;
+	cursor: pointer;
+}
+.MyName h1
+{
+	text-align:center;
+	border:1px solid black;
+	width:200px;
+	color:white;
+	margin-top:100px;
+	border-radius:50px;
+	margin-right: auto;
+	margin-left: auto;
+	cursor: pointer;
+	transition: 10s;
+}
+.MyName h1:hover
+{
+	width:500px;
+    height:100px;
+    margin-top:10px;
+	padding-top:10px;
+	background: linear-gradient(gray,black);
+}
